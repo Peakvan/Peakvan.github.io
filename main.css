@@ -1,0 +1,55 @@
+.container{
+    background-color: lightgray;
+    min-height: 100vh;
+    padding: 128px;
+}
+
+.content{
+    max-width: 500px    ;
+}
+
+.avatar{
+    width: 256px;
+    border-radius: 10%;
+    box-shadow: 5px 5px 0px 5px black;
+    margin-bottom: 48px;
+}
+
+.name{
+    font-size: 48px;
+    margin-bottom: 24px;
+    /*text-transform: uppercase;*/
+    color: darkcyan;
+}
+
+.job{
+    font-size: 24px;
+    margin-bottom: 24px;
+    color: darkred;
+}
+
+.about{
+    font-size: 18px;
+    margin-bottom: 24px;
+    color: gray;
+    font-weight: 300;
+}
+
+.contact{
+    margin-bottom: 48px;
+    color: blue;
+    font-size: 18px;
+}
+
+.contact_button{
+    font-size: 18px;
+    margin-bottom: 24px;
+    color: green;
+    padding: 24px 48px;
+    text-decoration: none;
+    background-color: aquamarine;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
